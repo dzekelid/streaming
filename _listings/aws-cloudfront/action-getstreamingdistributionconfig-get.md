@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetStreamingDistributionConfig&k=1:
+  /?Action=GetStreamingDistributionConfig:
     get:
       summary: ' Get Streaming Distribution Config '
       description: Get the configuration information about a streaming distribution
