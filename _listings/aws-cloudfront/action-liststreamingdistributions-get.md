@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListStreamingDistributions&k=1:
+  /?Action=ListStreamingDistributions:
     get:
       summary: ' List Streaming Distributions '
       description: List streaming distributions
