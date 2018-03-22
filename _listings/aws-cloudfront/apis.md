@@ -27,7 +27,7 @@ apis:
   tags: Streaming
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/aws-cloudfront/action-liststreamingdistributions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/aws-cloudfront/action-updatestreamingdistribution-get.md
 x-common:
 - type: x-analysis
   url: https://aws.amazon.com/cloudfront/reporting/
