@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteStreamingDistribution&k=1:
+  /?Action=DeleteStreamingDistribution:
     get:
       summary: ' Delete Streaming Distribution '
       description: Delete a streaming distribution
