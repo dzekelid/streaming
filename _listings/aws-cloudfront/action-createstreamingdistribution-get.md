@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateStreamingDistribution&k=1:
+  /?Action=CreateStreamingDistribution:
     get:
       summary: ' Create Streaming Distribution '
       description: Creates a new RMTP distribution
