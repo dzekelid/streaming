@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateStreamingDistributionWithTags&k=1:
+  /?Action=CreateStreamingDistributionWithTags:
     get:
       summary: ' Create Streaming Distribution With Tags '
       description: Create a new streaming distribution with tags
