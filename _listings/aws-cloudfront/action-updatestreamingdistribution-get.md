@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateStreamingDistribution&k=1:
+  /?Action=UpdateStreamingDistribution:
     get:
       summary: ' Update Streaming Distribution '
       description: Update a streaming distribution
