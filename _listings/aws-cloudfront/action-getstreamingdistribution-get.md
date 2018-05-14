@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API Get Streaming Distribution
   version: 1.0.0
+  description: |-
+    Gets information about a specified RTMP distribution, including the distribution
+          configuration.
 schemes:
 - http
 produces:
