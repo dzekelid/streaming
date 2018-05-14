@@ -33,7 +33,49 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/google-cloud-spanner/v1-session-streamingread-post.md
+- name: Google Cloud Spanner API Streaming Read
+  description: |-
+    Like Read, except returns the result set as a
+    stream. Unlike Read, there is no limit on the
+    size of the returned result set. However, no individual row in
+    the result set can exceed 100 MiB, and no column value can exceed
+    10 MiB.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  humanURL: https://cloud.google.com/spanner/
+  baseURL: http:://spanner.googleapis.com//
+  tags: Streaming
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/google-cloud-spanner/v1-session-streamingread-post.md
 x-common:
+- type: x-change-log
+  url: https://cloud.google.com/spanner/docs/release-notes
+- type: x-code
+  url: https://cloud.google.com/spanner/docs/reference/libraries
+- type: x-command-line-interfaces
+  url: https://cloud.google.com/spanner/docs/gcloud-spanner
+- type: x-concepts
+  url: https://cloud.google.com/spanner/docs/concepts
+- type: x-documentation
+  url: https://cloud.google.com/spanner/docs/
+- type: x-getting-started
+  url: https://cloud.google.com/spanner/docs/quickstart-console
+- type: x-guide
+  url: https://cloud.google.com/spanner/docs/how-to
+- type: x-pricing
+  url: https://cloud.google.com/spanner/pricing
+- type: x-rate-limits
+  url: https://cloud.google.com/spanner/docs/limits
+- type: x-schema
+  url: https://cloud.google.com/spanner/docs/information-schema
+- type: x-service-level-agreements
+  url: https://cloud.google.com/spanner/sla
+- type: x-support
+  url: https://cloud.google.com/spanner/docs/support
+- type: x-website
+  url: https://cloud.google.com/spanner/
+- type: x-white-papers
+  url: https://cloud.google.com/spanner/docs/whitepapers
 - type: x-change-log
   url: https://cloud.google.com/spanner/docs/release-notes
 - type: x-code
