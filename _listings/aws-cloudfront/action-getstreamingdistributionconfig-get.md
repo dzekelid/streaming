@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API Get Streaming Distribution Config
   version: 1.0.0
+  description: Get the configuration information about a streaming distribution.
 schemes:
 - http
 produces:
