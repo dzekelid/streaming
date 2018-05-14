@@ -1,9 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud Spanner
-  description: Cloud Spanner is a managed, mission-critical, globally consistent and
-    scalable relational database service.
+  title: Google Cloud Spanner API Streaming Read
+  description: |-
+    Like Read, except returns the result set as a
+    stream. Unlike Read, there is no limit on the
+    size of the returned result set. However, no individual row in
+    the result set can exceed 100 MiB, and no column value can exceed
+    10 MiB.
   contact:
     name: Google
     url: https://google.com
