@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API List Streaming Distributions
   version: 1.0.0
+  description: List streaming distributions.
 schemes:
 - http
 produces:
