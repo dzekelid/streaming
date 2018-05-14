@@ -29,7 +29,40 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/meetup/2-rsvps-ws.md
+- name: Meetup WebSockets RSVP Stream
+  description: |-
+    For browsers that support it, [WebSockets](http://dev.w3.org/html5/websockets/) is a more
+    efficient alternative to the long-polling stream. This is a **push only** endpoint and will discard
+    any messages received from the client after the socket is open.
+
+    Because browser support for WebSockets is limited, we recommend that you consume this stream
+    through the [must.js](https://github.com/meetup/must.js#readme) client, which can fallback to long-polling.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
+  humanURL: http://www.meetup.com/
+  baseURL: https://api.meetup.com//
+  tags: Streaming
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/meetup/2-rsvps-ws.md
 x-common:
+- type: x-base
+  url: http://api.meetup.com
+- type: x-developer
+  url: http://www.meetup.com/meetup_api/
+- type: x-github
+  url: https://github.com/meetup
+- type: x-pricing
+  url: http://www.meetup.com/pricing/
+- type: x-privacy
+  url: http://www.meetup.com/privacy/
+- type: x-support
+  url: http://www.meetup.com/help/
+- type: x-terms-of-service
+  url: http://www.meetup.com/terms/
+- type: x-twitter
+  url: https://twitter.com/MeetupAPI
+- type: x-website
+  url: http://www.meetup.com/
 - type: x-base
   url: http://api.meetup.com
 - type: x-developer
