@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API Delete Streaming Distribution
   version: 1.0.0
+  description: Delete a streaming distribution.
 schemes:
 - http
 produces:
