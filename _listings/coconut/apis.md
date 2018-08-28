@@ -1,23 +1,15 @@
 ---
 name: Coconut
-description: We let developers spend their time on their application code, not building
-  a brand new encoding system from scratch. Formerly HeyWatch and founded in 2006,
-  Coconut is a cloud-based video encoding platform that lets developers move video
-  encoding to the cloud with just a few lines of code. We know that developers spend
-  a lot of time on their application code, so we want to make things easier and more
-  productive for them offering beautiful code, API and documentation.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coconut-logo.png
+x-slug: coconut
+description: 'Powerful and cost-effective video encoding platform - 50% cheaper than
+  AWS and Zencoder - They trust us: Adobe, Tumblr, CloudApp, Classdojo, Sony...'
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1891-coconut.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Video Encoding
-- Streaming
-- Stack Network
-- Encoding
-- Cloud
-created: "2018-02-26"
-modified: "2018-02-26"
-url: https://raw.githubusercontent.com/streamdata-gallery/streaming/master/_listings/coconut/apis.yaml
+x-alexaRank: "741296"
+tags: Streaming
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/coconut/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -27,8 +19,12 @@ x-common:
   url: http://coconut.co/blog/
 - type: x-blog-rss
   url: http://www.heywatchencoding.com/blog.atom
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/coco-s-coconut-company
 - type: x-developer
   url: http://coconut.co/docs/
+- type: x-email
+  url: support@coconut.co
 - type: x-pricing
   url: http://coconut.co/pricing
 - type: x-selfservice-registration

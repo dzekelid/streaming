@@ -1,0 +1,299 @@
+{
+	"name": "Streadata.io API Gallery - Streaming",
+	"description": "This is a repository of streaming APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/streaming.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://streaming.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "7digital",
+			"x-api-slug": "7digital",
+			"description": "Welcome to 7digital!    Choose from over 30 million high quality tracks in our store; download, sync and play your music on the go.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg",
+			"humanURL": "http://7digital.com",
+			"baseURL": "https://api.7digital.com/1.2/",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/7digital/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MediaNet",
+			"x-api-slug": "medianet",
+			"description": "MediaNet provides partners catalog, publishing admin, on-demand streaming, DMCA radio, downloads, rights management, reporting, and paymentsunder one roof.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/435-medianet.jpg",
+			"humanURL": "http://www.mndigital.com/",
+			"baseURL": "https:///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/medianet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "playme_api",
+			"x-api-slug": "playme-api",
+			"description": "Enjoy free access to your favorite songs and online radio stations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/460-playme_api.jpg",
+			"humanURL": "http://lab.playme.com",
+			"baseURL": "https:///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/playme-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tinysong",
+			"x-api-slug": "tinysong",
+			"description": "TinySong is like TinyURL but for music. Users can search for songs online by artist or title. The site then turns these links into short links that can be sent to friends.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/500_logo.png",
+			"humanURL": "http://www.tinysong.com/api",
+			"baseURL": "https:///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/tinysong/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spotify",
+			"x-api-slug": "spotify",
+			"description": "Spotify is a digital music service that gives you access to millions of songs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg",
+			"humanURL": "http://www.spotify.com",
+			"baseURL": "https://api.spotify.com//v1",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/spotify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "FlowPlay",
+			"x-api-slug": "flowplay",
+			"description": "Flowplayer is the video player for your website.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1416-flowplay.jpg",
+			"humanURL": "http://flowplayer.org",
+			"baseURL": "https:///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/flowplay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Coconut",
+			"x-api-slug": "coconut",
+			"description": "Powerful and cost-effective video encoding platform - 50% cheaper than AWS and Zencoder - They trust us: Adobe, Tumblr, CloudApp, Classdojo, Sony...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1891-coconut.jpg",
+			"humanURL": "http://coconut.co/",
+			"baseURL": "https://heywatch.com//",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/coconut/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dailymotion",
+			"x-api-slug": "dailymotion",
+			"description": "We believe that video is the best way to capture and share life&rsquo;s incredible variety. This is why at Dailymotion we aim to offer the best video experience:A place where you can discover content you love from around the world, live or on demand: sports competitions, music festivals, comedy skits, political debates, fashion shows, gaming live-streams&hellip; Our viewers can follow, watch and share the events and the ideas that keep the world surprising and diverse as they happen.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/daily-motion-logo.png",
+			"humanURL": "https://dailymotion.com/",
+			"baseURL": "https:///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/dailymotion/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudFront",
+			"x-api-slug": "aws-cloudfront",
+			"description": "Amazon CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs, video content or other web assets. It integrates with other Amazon Web Services products to give developers and businesses an easy way to accelerate content to end users with no minimum usage commitments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png",
+			"humanURL": "https://aws.amazon.com/cloudfront/",
+			"baseURL": ":///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/aws-cloudfront/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis",
+			"x-api-slug": "aws-kinesis",
+			"description": "Amazon Kinesis Firehose is the easiest way to load streaming data into AWS. It can capture, transform, and load streaming data into Amazon Kinesis Analytics, Amazon S3, Amazon Redshift, and Amazon Elasticsearch Service, enabling near real-time analytics with existing business intelligence tools and dashboards you are already using today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png",
+			"humanURL": "https://aws.amazon.com/kinesis/",
+			"baseURL": ":///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/aws-kinesis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS AppStream",
+			"x-api-slug": "aws-appstream",
+			"description": "Amazon AppStream is a fully managed, secure application streaming service that allows you to stream desktop applications from AWS to any device running a web browser, without rewriting them. Amazon AppStream 2.0 provides users instant-on access to the applications they need, and a responsive, fluid user experience on the device of their choice.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appstream2_try_it_now_2_big.png",
+			"humanURL": "https://aws.amazon.com/appstream2/",
+			"baseURL": ":///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/aws-appstream/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Spanner",
+			"x-api-slug": "google-cloud-spanner",
+			"description": "Cloud Spanner is the first and only relational database service that is both strongly consistent and horizontally scalable. With Cloud Spanner you enjoy all the traditional benefits of a relational database: ACID transactions, relational schemas (and schema changes without downtime), SQL queries, high performance, and high availability. But unlike any other relational database service, Cloud Spanner scales horizontally, to hundreds or thousands of servers, so it can handle the highest of transactional workloads. With automatic scaling, synchronous data replication, and node redundancy, Cloud Spanner delivers up to 99.999% (five 9s) of availability for your mission critical applications. In fact, Google&rsquo;s internal Spanner service has been handling millions of queries per second from many Google services for years.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png",
+			"humanURL": "https://cloud.google.com/spanner/",
+			"baseURL": "://spanner.googleapis.com//",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/google-cloud-spanner/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StreamSets",
+			"x-api-slug": "streamsets",
+			"description": "StreamSets software delivers performance management for data flows that feed the next generation of big data applications. Its mission is to bring operational excellence to the management of data in motion, so that data continually arrives on-time and with quality, empowering business-critical analysis and decision-making.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28193-streamsets.jpg",
+			"humanURL": "http://streamsets.com",
+			"baseURL": "https:///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/streamsets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Striim",
+			"x-api-slug": "striim",
+			"description": "Striim (pronounced stream) provides an end-to-end, real-time data integration + streaming analytics platform. Leverage change data capture (CDC) to access data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28377-striim.jpg",
+			"humanURL": "https://www.striim.com",
+			"baseURL": "https:///",
+			"tags": "Streaming",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/striim/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Streaming",
+	"include": [
+		{
+			"name": "7digital",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/7digital/apis.yaml"
+		},
+		{
+			"name": "MediaNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/medianet/apis.yaml"
+		},
+		{
+			"name": "playme_api",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/playme-api/apis.yaml"
+		},
+		{
+			"name": "Tinysong",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/tinysong/apis.yaml"
+		},
+		{
+			"name": "Spotify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/spotify/apis.yaml"
+		},
+		{
+			"name": "FlowPlay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/flowplay/apis.yaml"
+		},
+		{
+			"name": "Coconut",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/coconut/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "Dailymotion",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/dailymotion/apis.yaml"
+		},
+		{
+			"name": "AWS CloudFront",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/aws-cloudfront/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/aws-kinesis/apis.yaml"
+		},
+		{
+			"name": "AWS AppStream",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/aws-appstream/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Spanner",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/google-cloud-spanner/apis.yaml"
+		},
+		{
+			"name": "StreamSets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/streamsets/apis.yaml"
+		},
+		{
+			"name": "Striim",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/streaming/master/_listings/striim/apis.yaml"
+		}
+	]
+}
